@@ -41,7 +41,7 @@ class MainPageLocators:
     ORDER_FIELD = (By.XPATH, '//img[contains(@class,"constructor-element__image")]')
 
         # Счетчик количества ингредиента "Краторная булка N-200i"
-    INGREDIENT_COUNT_OF_CRATER_LOAF_N_200I = (By.XPATH, '//ul[1]/a[2]/div[1]/p[1]')
+    INGREDIENT_COUNT_OF_CRATER_LOAF_N_200I = (By.XPATH, '//ul[1]/a[2]/div[1]/p[contains(@class,"counter_counter")]')
 
         # Текст о готовности заказа во всплывающем окне "Заказ"
     TEXT_ABOUT_READINESS_ORDER = (By.XPATH, '//div[2]/p[contains(@class,"undefined text")][1]')
